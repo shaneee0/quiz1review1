@@ -1,7 +1,4 @@
 <<<<<<< HEAD
-# quiz1review1
-=======
-<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -72,4 +69,3 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # employee-management
 ITELEC 4 CRUD
 >>>>>>> 5392d42a0537ed30f67a1a51ab8ec5d4d071be9c
->>>>>>> c74dd7e (this is fixed set a)
