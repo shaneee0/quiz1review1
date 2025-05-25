@@ -54,11 +54,11 @@
                                 <td>{{$items->address}}</td>
                                 <td>{{$items->zip}}</td>
                                  <td> 
-                                    <span class="badge bg-success"><a href="{{  route('employee.edit'$item->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
+                                    <span class="badge bg-success"><a href="{{  route('employee.edit',$items->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
                                 </td>
                                 <td> 
                                     
-                                <span class="badge bg-danger"><a href="{{  route('employee.delete'$item->id)}}" class="m-3 p-lg-5"><h5>Delete</h5></a></span>
+                                <span class="badge bg-danger"><a href="{{  route('employee.destroy',$items->id)}}" class="m-3 p-lg-5"><h5>Delete</h5></a></span>
                                 </td>
                                 
                             </tr>
