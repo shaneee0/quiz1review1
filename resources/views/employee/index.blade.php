@@ -53,13 +53,13 @@
                                 <td>{{$items->age}}</td>
                                 <td>{{$items->address}}</td>
                                 <td>{{$items->zip}}</td>
-                                {{-- <td> 
-                                    <span class="badge bg-success"><a href="{{  route('employee.edit')}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
+                                 <td> 
+                                    <span class="badge bg-success"><a href="{{  route('employee.edit'$item->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
                                 </td>
                                 <td> 
                                     
-                                <span class="badge bg-danger"><a href="{{  route('employee.delete')}}" class="m-3 p-lg-5"><h5>Delete</h5></a></span>
-                                </td> --}}
+                                <span class="badge bg-danger"><a href="{{  route('employee.delete'$item->id)}}" class="m-3 p-lg-5"><h5>Delete</h5></a></span>
+                                </td>
                                 
                             </tr>
                             @endforeach
